@@ -20,9 +20,9 @@ services:
         environment:
             TZ: "Europe/Madrid"
             MYSQL_ALLOW_EMPTY_PASSWORD: "no"
-            MYSQL_ROOT_PASSWORD: "030981"
-            MYSQL_USER: 'root'
-            MYSQL_PASSWORD: '030981'
-            MYSQL_DATABASE: 'cbk_guia'
+            MYSQL_ROOT_PASSWORD: "database_root_password"
+            MYSQL_USER: 'database_username'
+            MYSQL_PASSWORD: 'database_password'
+            MYSQL_DATABASE: 'database_name'
 volumes:
     mariadb:
